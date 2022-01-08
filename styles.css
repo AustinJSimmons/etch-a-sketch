@@ -39,6 +39,10 @@ h1 {
     background-color: black;
 }
 
+.cleared {
+    background-color: white;
+}
+
 #button {
     background-color: darkgray;
     border: none;
