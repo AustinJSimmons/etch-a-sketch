@@ -3,6 +3,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
 }
 
 #content-container {
@@ -16,12 +19,14 @@ body {
     height: 600px;
     display: flex;
     flex-wrap: wrap;
+    background-color: whitesmoke;
 }
 
 .title {
     font-size: 60px;
     margin: 2rem;
     margin-bottom: 4rem;
+    color: gold;
 }
 
 h1 {
@@ -30,9 +35,7 @@ h1 {
 }
 
 .ink {
-    border-width: 1px;
-    border-style: solid;
-    border-color: red;
+    background-color: whitesmoke;
 }
 
 .colored {
@@ -40,16 +43,22 @@ h1 {
 }
 
 .cleared {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 #button {
+    font-size: 40px;
     background-color: darkgray;
     border: none;
-    box-shadow: 2px;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: flex;
     cursor: pointer;
+    margin-top: 50px;
+}
+
+.toolbar {
+    display: flex;
+    gap: 25px;
 }
